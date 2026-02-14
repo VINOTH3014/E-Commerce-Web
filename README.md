@@ -24,10 +24,25 @@ A modern **E-Commerce web application** built with **React.js** that allows user
    ```bash
    git clone https://github.com/VINOTH3014/E-Commerce-Web.git
 
-   Install Dependencies:
-npm install
+Install Dependencies:
+   npm install
 Run the development server: 
-npm run dev 
+  npm run dev 
+  
+Folder Structure
+
+src/
+ ├─ components/     # Reusable UI components
+ 
+ ├─ pages/          # Page-level components
+ 
+ ├─ assets/         # Images, icons, and static files
+ 
+ ├─ context/        # React context for state management
+ 
+ └─ App.js
+
+  
 Future Enhancements
 
 User authentication and login system.
@@ -37,14 +52,6 @@ Integration with real backend API for products and orders.
 Payment gateway integration (Stripe, PayPal, etc.)
 
 Admin dashboard for product management.
-
-Author
-
-Vinoth N
-
-GitHub: VINOTH3014
-
-Email: vinothvinothn2004@gmail.com
 
 ---
 
